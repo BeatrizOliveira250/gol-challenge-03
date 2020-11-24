@@ -16,26 +16,23 @@ a {
 }
 
 img {
-  max-width: 9.5%;
   display: block;
-  margin-left: 100px;
+  margin-left: 50px;
 }
-
 
 .flex {
   display: flex;
   align-items: center;
   width: 100%;
+  flex-direction: row;
 }
 
 :root {
   font-size: 62.5%; /* 1 rem = 10px */
   --text: #333333;
   --text-secondary: #666666;
-
   --gray: #fbfbfb;
-
-  --orange: ##FF5E00;
+  --orange: #FF5E00;
   --orange-secondary: #ff7b33;
 }
 
@@ -70,12 +67,12 @@ header .flex {
 
 nav ul {
   display: flex;
-  margin-top: -40px;
+  margin-top: -30px;
   margin-left: 100vh;
 }
 
 nav ul li a {
-  margin-left: 30px;
+  margin-left: 50px;
   font-size: 1.6rem;
   transition: all 0.3s ease;
   text-transform: uppercase;
@@ -83,4 +80,45 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--orange-secondary);
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("assets/aviao.jpg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  min-height: calc(100vh - 102px);
+  
+}
+
+.home-text h1 {
+  font-size: 5.0rem;
+  font-weight: 400;
+  line-height: 60px;
+  color: white;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 400px;
+}
+
+.home-text p {
+  font-size: 2rem;
+  max-width: 550px;
+  margin: 30px 0px;
+  color: white;
+  margin-left: 60px;
+  font-weight: bolder;
+  
+}
+
+#card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+	margin: 0 auto;
+  border: 1px solid #ccc;
 }
