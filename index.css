@@ -28,9 +28,9 @@ body::-webkit-scrollbar-track {
   background: white;        /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #969696;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
- /* border: 3px solid #979797;  /* creates padding around scroll thumb */
+  background-color: #a8a8a8;    /* color of the scroll thumb */
+  border-radius: 20px;           /* roundness of the scroll thumb */
+  /*border: 3px solid #979797;  /* creates padding around scroll thumb */
 }
 
 a {
@@ -71,6 +71,8 @@ img {
   padding: 10px;
   font-size: 1.5rem;
   text-transform: uppercase;
+  font-weight: 450;
+  color: var(--text-secondary);
 }
 
 .menu li a:hover {
